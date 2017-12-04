@@ -1,25 +1,45 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Palo Alto</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-  <body>
-    <header class="header">
-      <div class="header__container">
-        <h1 class="header__text">Palo Alto</h1>
-      </div>
-    </header>
+<!Doctype html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <title>Palo-Alto</title>
+       <meta name="keywords" content="Palo Alto, travel" />
+       <meta name="description" content=" Palo Alto">
+       <link rel="stylesheet" href="./styles/main.css">
+       <link rel="stylesheet" href="./style/normalize.css">
+       <link rel="shortcut icon" href="./img/favicon.ico" sizes="32x32" /> 
+   </head> 
+    <body>
+        <div class="pg">
+            <header class="header">
+                <h1 class="header-logo">Palo Alto</h1>
+                <div class="header-menu">
+                <span class="haeder-menu__home">HOME</span>
+                <span class="header-menu__profile">PROFILE</span>
+                <img class="header-img" src="/img/Search.svg">
+            </div>
+            </header>
 
     {% block main %}
       
-    <footer class="footer">
-      <div class="footer__container">
-        <h2 class="footer__text"> Palo Alto </h2>
-      </div>
-    </footer>
-  </body>
+ <footer class="footer">
+                <div class="footer__logo">Palo Alto</div>
+                <div class="footer-menu">
+                <span class="footer-menu__home">HOME</span>
+                <span class="footer-menu__profile">PROFILE</span>
+                <img class="footer-menu__img" src="img/Search.svg">
+                </div>
+                <div class="footer-content">
+                <div class="footer-doc">©2015- Palo Alto.All Rights Reserved. Design &amp; Developed by</div>
+                <div class="footer-developer">PixelBuddha Team</div>
+            </div>
+            <div class="icon">
+            <img class="icons__f" src="img/facebook.svg">
+            <img class="icons__t" src="img/twitter.svg">
+            <img class="icons__i" src="img/instagram.svg">
+            <img class="icons__p" src="img/pinterest.svg">
+        </div>
+            </footer>
+        </div>
+    </body>
 </html>

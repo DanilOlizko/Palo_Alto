@@ -3,6 +3,10 @@ var nunjucks = require('gulp-nunjucks');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var sourcemaps = require('gulp-sourcemaps');
+var cssmin = require('gulp-cssmin');
+var autoprefixer = require('gulp-autoprefixer');
+
 
 var path = {
     css:  'src/styles/*.scss',
@@ -12,6 +16,30 @@ var path = {
       html: 'dist/'
     }
 };
+
+gulp.task('default', function() {
+    gulp.src('src/**/*.css')
+        .pipe(concat('all.css'))
+        .pipe(cssmin())
+        .pipe(gulp.dest('dist'))
+});
+
+gulp.task('default', function() {
+    gulp.src('src/**/*.css')
+        .pipe(sourcemaps.init())
+        .pipe(concat('all.css'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('dist'))
+});
+
+gulp.task('default', function() {
+    gulp.src('src/**/*.css')
+        .pipe(sourcemaps.init())
+        .pipe(autoprefixer())
+        .pipe(concat('all.css'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('dist'))
+});
 
 gulp.task('default', ['build', 'serve', 'watch']);
 
