@@ -1,0 +1,77 @@
+.header{
+    margin-bottom: 90px;
+    padding-top: 75px;
+    margin-left: 123px;
+}
+@media (max-width: 768px) {
+    .header{
+        margin-bottom: 50px;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.header-logo{
+    font-family: Lato;
+    color:  #333333;
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: -45px;
+}
+@media (max-width: 320px) {
+    .header-logo{
+        margin-top: 54px;
+        font-size: 42px;
+        margin-left: -80px;
+        margin-bottom: 60px;
+    }
+}
+.header-menu{
+    display: inline-block;
+    margin-left: 68%;
+}
+.header-menu__home{
+    padding-right: 35px;
+    font-family: Lato;
+    font-size: 16px;
+    color:  #bdbdbd;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .heder-menu__home {
+        font-size: 20px;
+    }
+}
+.header-menu__profile{
+    font-family: Lato;
+    padding-right: 30px;
+    font-size: 16px;
+    color:  #333333;
+    font-weight: 700;
+    
+}
+@media (max-width: 768px) {
+    .heder-menu__profile{
+        font-size: 20px;
+    }
+}
+.header-img{
+    background-color: #333333;
+    width: 16px;
+    height: 16px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .header-img {
+        background-image: url(Search@2x.svg);
+    }
+}
+@media (max-width: 768px) {
+    .heder-img {
+        width: 20px;
+        height: 20px;
+    }
+}

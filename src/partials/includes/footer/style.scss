@@ -1,0 +1,141 @@
+.footer{
+    font-family: 'Lato', sans-serif;
+    background: #5c6bc0;
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width: 320px) {
+    .footer{
+        width: 320px;
+    }
+}
+.footer__logo{
+    display: inline-block;
+    padding: 9px;
+    padding-left: 44.55%;
+    padding-right: 44.55%;
+    font-size: 36px;
+    color: #4a569a;
+}
+@media (max-width: 320px) {
+    .footer__logo {
+        display: inline-block;
+        padding: 9px;
+        padding-left: 26.3%;
+        padding-right: 26.3%;
+        font-size: 36px;
+        color: #4a569a;
+    }
+}
+.footer-menu{
+    padding-left: 41%;
+    padding-top: 70px;
+}
+.footer-menu__home{
+    display: inline-block;
+    font-family: Lato;
+    font-size: 16px;
+    color: #7e89cb;
+    font-weight: 700;
+    padding-right: 50px;
+}
+@media (max-width: 320px) {
+    .footer-menu__home{
+        position: relative;
+        top: -70px;
+    }
+}
+.footer-menu__profile{
+    font-size: 16px;
+    color: #ffffff;
+    padding-right: 30px;
+}
+@media (max-width: 320px) {
+    .footer-menu__profile{
+        position: relative;
+        top: -70px;
+        margin-left: -9px;
+    }
+}
+.footer-menu__img{
+    width: 16px;
+    height: 16px;
+}
+@media only screen and (min-device-pixel-ratio: 1.5) {
+    .footer-menu__img{
+        background-image: url(Search@2x.svg);
+    }
+}
+@media (max-width: 320px) {
+    .footer-menu__img{
+        display: none;
+    }
+}
+.footer-content{
+    padding-top: 50px;
+    display: inline-block;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+@media (max-width: 320px) {
+    .footer-content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.footer-doc{
+    display: inline-block;
+    font-size: 14px;
+    color: #7a85ca;
+    padding-right: 30px;
+}
+@media (max-width: 320px) {
+    .footer-doc{
+        display: none;
+    }
+}
+.footer-developer{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.icons {
+    padding-left: 45%;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+@media (max-width: 320px) {
+    .icons {
+    position: relative;
+    padding: 0;
+    margin-top: -15px;
+    margin-left: 75px;
+    padding-bottom: 70px;
+    }
+}
+
+.icons__f {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.icons__t {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+
+.icons__i {
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+    
+}
+
+.icons__p {
+    width: 22px;
+    height: 22px;
+}
