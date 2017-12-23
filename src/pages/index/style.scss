@@ -1,13 +1,13 @@
-.pg-profile{
-    box-sizing: border-box;
-    box-shadow: 0 0 10px #999ca0;
-    margin: auto;
-    background: #ffffff;
-    width: 956px;
-    margin-left: 123px;
+.main{
+    display: block;
+}
+.pg-profile {
+  width: 952px;
+  height: auto;
+  margin: auto;
 }
 @media (max-width: 768px) {
-    .pg-profile{
+    .pg-profile {
         position: relative;
         width: 1200px;
         margin-left: auto;
@@ -20,37 +20,36 @@
         margin-left: -79px;
     }
 }
-.pg-profile-post1{
+.pg-profile-post{
     background-color: #ffffff;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
-    width: 952px;
-    height: 587px;
-    margin-left: 98px;
-    margin-right: 98px;
+	width: 756px;
+	margin-bottom: 50px;
+    margin: 0px 97px 80px 97px;
+	box-sizing: border-box;
+    height: auto;
+	padding-top: 20px;
+	padding-bottom: 80px;
 }
 @media (max-width: 320px) {
-    .pg-profile-post1{
+    .pg-profile-post{
         margin-left: 25px;
         margin-right: 25px;
     }
 }
-.pg-profile-tag__position{
-    top: 55px;
-    font-size: 14px;
-    margin-left: 6px;
-    font-weight: 700;
-    font-family: Lato;
-    padding-top: 0px;
-    margin-top: 7px;
-    color: #ffffff;
+.pg-profile-head{
+    display: block;
 }
 .pg-profile__tag{
-    display: inline-block;
+    display: block;
+    width: auto;
+    margin: 0 -109px 0 765px;
     background-color: #5c6bc0;
-    width: 100px;
-    height: 32px;
-    margin-left: 880px;
-    margin-top: 20px;
+    color:  #ffffff;
+    font-size: 13px;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    outline: none;
 }
 @media (max-width: 768px) {
     .pg-profile__tag{
@@ -65,10 +64,12 @@
     }
 }
 .pg-profile__date{
-    font-family: Lato;
-    color: #bdbdbd;
+    display: block;
+	margin-top: 58px;
+    color:  #bdbdbd;
     font-size: 14px;
-    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
 }
 @media (max-width: 320px) {
     .pg-profile__date{
@@ -76,10 +77,8 @@
     }
 }
 .pg-profile-title{
-    font-family: Lato;
-    color: #000000;
-    font-size: 40px;
-    margin-top: -10px;
+    font-family: "Lato", serif;
+	font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     text-align: left;
@@ -99,29 +98,32 @@
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
+}
 .pg-profile__text{
-    line-height: 56px;
-    font-size: 17px;
-    color: #696969;
-    font-weight: 400;
-    margin-bottom: 55px;
+	font-family: "Lato", serif;
+	font-size: 17px;
+  	font-weight: 400;
+  	line-height: 30px;
+	color: #414141;
 }
 @media (max-width: 320px) {
     .pg-profile__text{
         font-size: 16px;
     }
 }
+.pg-profile__bottom{
+    margin-top: 58px;
+    }
 .pg-profile__hashtag{
-    position: absolute;
-    font-size: 15px;
-    color: #d1d1d1;
-    bottom: 0;
-    font-weight: 400;
-    right: -55px;
-    margin: 80px;
-    line-height: 15px;
-    padding-bottom: 80px;
+	display: inline-block;
+	float: right;
+    text-decoration: none;
+  	color:  #b2b2b2;
+  	font-size: 15px;
+  	font-weight: 400;
+  	line-height: 50px;
+  	margin: 0 10px 0 0;
+  	float: left;
 }
 @media (max-width: 320px) {
     .pg-profile__hashtag{
@@ -131,25 +133,24 @@
         margin-bottom: -64px;
     }
 }
-.pg.-profile__bottom{
-    position: relative;
-    padding-bottom: 80px
-}
-.pg-profile__more { 
-    display: inline-block;  
-    font-size: 24px; 
-    font-weight: 600; 
-    color: #5c6bc0; 
-    background: #fff; 
-    border: #fff; 
-    cursor: pointer; 
-    border: 5px solid transparent; 
+.pg-profile__button { 
+	display: inline-block;
+	margin-left: -35px;
+  	width: 189px;
+  	height: 52px;
+  	background: none;
+  	color: #5c6bc0;
+  	font-family: "LatoBold", serif;
+  	font-size: 21px;
+  	text-transform: uppercase;
+  	outline: 0;
+  	border: 1px solid #ffffff;
 }
 @media (max-width: 320px) {
     .pg-profile__more{
         margin-left: -10px
     }
-
+}
 #more { 
     background: #fff; 
 } 
@@ -159,7 +160,7 @@
 #more:active { 
     border: 2px solid #7d89cd; 
 }
-.pg-profile-post2{
+.pg-profile-post{
     background-color: #ffffff;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
     width: 952px;
@@ -167,24 +168,25 @@
     margin-left: 98px;
     margin-right: 98px;
 }
-.pg-profile-post2__img{
-    width: 952px;
-    height: 533px;
+.pg-profile-post__img{
+    width: 100%;
+    height: 100%;
 }
 @media only screen and (min-device-pixel-ratio: 1.5) {
-   .pg-profile-post2__img{
+   .pg-profile-post__img{
         background-image: url(mountain@2x.png);
     }
 }
-.pg-profile-post2__preface{
-    font-size: 25px;
-    color: #7f7f7f;
-    font-family: Lato;
-    font-style: italic;
-    line-height: 38px;
+.pg-profile-post__preface{
+	font-family: "Lato", serif;
+  	color: #7f7f7f;
+  	margin-bottom: 46px;
+  	font-size: 25px;
+  	font-style: italic;
+	line-height: 38px;
 }
 @media (max-width: 320px) {
-    .pg-profile-post2__preface{
+    .pg-profile-post__preface{
         font-size: 18px;
     }
 }

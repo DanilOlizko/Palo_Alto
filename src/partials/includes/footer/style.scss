@@ -1,9 +1,10 @@
 .footer{
-    font-family: 'Lato', sans-serif;
-    background: #5c6bc0;
-    width: 1400px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  height: auto;
+  margin: 105px 0 0 0;
+  padding-bottom: 70px;
+  background-color: #5c6bc0;
+  text-align: center;
 }
 @media (max-width: 320px) {
     .footer{
@@ -11,10 +12,9 @@
     }
 }
 .footer__logo{
-    display: inline-block;
-    padding: 9px;
-    padding-left: 44.55%;
-    padding-right: 44.55%;
+    padding-top: 70px;
+    font-family: "LatoBold", serif;
+    font-style: italic;
     font-size: 36px;
     color: #4a569a;
 }
@@ -28,37 +28,33 @@
         color: #4a569a;
     }
 }
-.footer-menu{
-    padding-left: 41%;
+.footer-logo__img{
+    margin: auto;
     padding-top: 70px;
 }
-.footer-menu__home{
+.footer-menu{
     display: inline-block;
-    font-family: Lato;
+    margin: 64px 0 69px 0;
+    font-family: "Lato", serif;
     font-size: 16px;
-    color: #7e89cb;
-    font-weight: 700;
-    padding-right: 50px;
+    text-transform: uppercase;
+    word-spacing: 40px;
+    color: #fff;
+    text-align: center;
+
+}
+.footer-menu__button{
+      text-decoration: none;
+      color: inherit;
 }
 @media (max-width: 320px) {
-    .footer-menu__home{
+    .footer-menu__button{
         position: relative;
         top: -70px;
-    }
-}
-.footer-menu__profile{
-    font-size: 16px;
-    color: #ffffff;
-    padding-right: 30px;
-}
-@media (max-width: 320px) {
-    .footer-menu__profile{
-        position: relative;
-        top: -70px;
-        margin-left: -9px;
     }
 }
 .footer-menu__img{
+    display: inline-block;
     width: 16px;
     height: 16px;
 }
@@ -73,10 +69,10 @@
     }
 }
 .footer-content{
-    padding-top: 50px;
-    display: inline-block;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-bottom: 40px;
+    font-family: "Lato", serif;
+    font-size: 14px;
+    color: #8d98d4;
 }
 @media (max-width: 320px) {
     .footer-content {
@@ -84,17 +80,7 @@
         margin-right: 0px;
     }
 }
-.footer-doc{
-    display: inline-block;
-    font-size: 14px;
-    color: #7a85ca;
-    padding-right: 30px;
-}
-@media (max-width: 320px) {
-    .footer-doc{
-        display: none;
-    }
-}
+
 .footer-developer{
     display: inline-block;
     color: #ffffff;
@@ -102,9 +88,9 @@
     margin-left: 10px;
 }
 .icons {
-    padding-left: 45%;
-    padding-bottom: 70px;
-    padding-top: 40px;
+    width: 200px;
+    margin: 0 auto;
+    list-style: none;
 }
 @media (max-width: 320px) {
     .icons {

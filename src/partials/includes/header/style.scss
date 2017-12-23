@@ -1,7 +1,8 @@
 .header{
-    margin-bottom: 90px;
-    padding-top: 75px;
-    margin-left: 123px;
+  margin: auto;
+  width: 952px;
+  height: auto;
+  padding: 77px 0 80px 0px;
 }
 @media (max-width: 768px) {
     .header{
@@ -13,14 +14,10 @@
 }
 
 .header-logo{
-    font-family: Lato;
-    color:  #333333;
-    font-size: 42px;
-    font-weight: 700;
+    font-family: "LatoBold", serif;
     font-style: italic;
-    line-height: 25px;
-    text-align: left;
-    margin-bottom: -45px;
+    font-size: 42px;
+    color: #333333;
 }
 @media (max-width: 320px) {
     .header-logo{
@@ -31,35 +28,23 @@
     }
 }
 .header-menu{
-    display: inline-block;
-    margin-left: 68%;
+  display: inline-block;
+  float: right;
+  font-size: 16px;
+  word-spacing: 33px;
 }
-.header-menu__home{
-    padding-right: 35px;
-    font-family: Lato;
-    font-size: 16px;
-    color:  #bdbdbd;
-    font-weight: 700;
+.header-menu__button{
+    text-decoration: none;
+    color: #333333;
+    font-family: "LatoBold", serif;
 }
 @media (max-width: 768px) {
     .heder-menu__home {
         font-size: 20px;
     }
 }
-.header-menu__profile{
-    font-family: Lato;
-    padding-right: 30px;
-    font-size: 16px;
-    color:  #333333;
-    font-weight: 700;
-    
-}
-@media (max-width: 768px) {
-    .heder-menu__profile{
-        font-size: 20px;
-    }
-}
 .header-img{
+    display: inline-block;
     background-color: #333333;
     width: 16px;
     height: 16px;
