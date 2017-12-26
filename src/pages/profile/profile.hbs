@@ -1,0 +1,46 @@
+{{#> layout/base }}
+
+{{#*inline "main-block"}}  
+<main class="profile">
+            <h1 class="profile-text"> Profile</h1>
+            <div class="divider"></div>
+            <section class="profile-section">
+                <form class="form" accept-charset="unf-8" autocomplete="on">
+                    <p>
+                        <label for="first-name">First Name</label><br>
+                        <input class="profile_section__form" type="text" name="name" id="first-name" placeholder="Name" required>
+                    </p>
+                    <p>
+                        <label for="second-name">Second Name</label><br>
+                        <input class="profile-section__form" type="text" name="surname" id="second-name" placeholder="Surname" required >
+                    </p>
+                    <p>
+                        <label for="e-mail">E-mail</label><br>
+                        <input class="profile-section__form" type="text" name="mail" id="e-mail" placeholder="YourE-Mail@gmail.com" required >
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label><br>
+                        <input class="profile-section__form" type="text" name="telephone_number" id="phone" placeholder=" +_(___)___-__-__" required>
+                    </p>
+                    <p>
+                        <label for="date">Date of Birth</label><br>
+                        <input class="profile-section__form" type="date" name="date_of_birth" id="date" placeholder="DD/MM/YYYY" required>
+                    </p>
+                    <div class ="sex">Sex</div>
+                    <p>
+                        <input class="profile-section__gender" type="radio" value="male" name="gender" id="male" checked>
+                        <label for="female"> Male
+                        </label><br>
+                        <input class="profile-section__gender" type="radio" value="female" name="gender" id="female" >
+                        <label for="female"> Female
+                        </label>
+                    </p>
+                <input class="profile-section__submit" type="submit" value="SUBMIT" id="submit" >
+                    
+                </form>
+            </section>
+        </main>
+
+{{/inline}}
+
+{{/layout/base }}

@@ -40,7 +40,7 @@
 .pg-profile-head{
     display: block;
 }
-.pg-profile__tag{
+.pg-profile-head__tag{
     display: block;
     width: auto;
     margin: 0 -109px 0 765px;
@@ -52,18 +52,18 @@
     outline: none;
 }
 @media (max-width: 768px) {
-    .pg-profile__tag{
+    .pg-profile-head__tag{
         position: absolute;
         left: 20%;
     }
 }
 @media (max-width: 320px) {
-    .pg-profile__tag{
+    .pg-profile-head__tagc{
         top: -20px;
         left: -700px;
     }
 }
-.pg-profile__date{
+.pg-profile-head__date{
     display: block;
 	margin-top: 58px;
     color:  #bdbdbd;
@@ -72,11 +72,11 @@
     text-align: left;
 }
 @media (max-width: 320px) {
-    .pg-profile__date{
+    .pg-profile-head__date{
         padding-top: 30px;
     }
 }
-.pg-profile-title{
+.pg-profile-head__title{
     font-family: "Lato", serif;
 	font-size: 40px;
     font-weight: 700;
@@ -84,7 +84,7 @@
     text-align: left;
 }
 @media (max-width: 320px) {
-    .pg-profile-title{
+    .pg-profile-head__title{
         font-size: 24px;
     }
 }

@@ -12,12 +12,15 @@ var concat = require('gulp-concat');
 
 var path = {
     css:  './src/*.scss',
+    image: '.src/**/*.png',
     html: {
     pages: './src/pages/**/*.hbs',
     partials: './src/partials/'
     },
+
     dist: {
      css:  './dist/',
+     image: './dist/',
      html: './dist/'
     },
     watch: {
@@ -50,8 +53,12 @@ gulp.task('html', function () {
         }))
         .pipe(gulp.dest(path.dist.html));
 });
+gulp.task('image', function () {
+    return gulp.src(path.image)
+        .pipe(gulp.dest(path.dist.image));
+});
 
-gulp.task('build', ['html', 'css']);
+gulp.task('build', ['html', 'css','image']);
 
 gulp.task('watch', function () {
   gulp.watch(path.watch.css, ['css']);

@@ -1,0 +1,103 @@
+.profile{
+  width: 952px;
+  height: auto;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 80px 0 0 90px;
+  box-sizing: border-box;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.profile-text{
+  font-family: "LatoBold", serif;
+  font-style: normal;
+  font-size: 29px;
+  color: #333333;
+}
+.divider{
+  width: 90%;
+  height: 2px;
+  background: #eeeeee;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+.profile-section{
+  width: 364px;
+  height: auto;
+  margin-top: 40px;
+}
+.form{
+    margin: 0;
+    padding: 0;
+}
+.profile__section__form {
+    font-size: 20px;
+    height: 55px;
+    width: 365px;
+    background: #f7f9fc;
+}
+
+.profile-section {
+    margin-left: 295px;
+}
+.profile-section__gender { 
+   width: 20px;
+   height: 20px;
+   cursor: pointer;   
+}
+.sex {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-size: 40px;
+}
+
+.profile-section__gender + label {
+    cursor: pointer;
+}
+
+.profile-section__submit {
+    margin-left: 50px;
+    font-size: 24px;
+    color: #5c6bc0;
+    background: #fff;
+    border: #fff;
+    margin-bottom: 80px;
+    cursor: pointer;
+
+}
+
+
+#submit {
+     background: #fff;
+    
+}
+#submit:hover{
+    border: 2px solid #f1f1f1;
+    
+}
+#submit:active{
+    border: 2px solid #7d89cd;
+    
+}
+
+#date:active{
+  border: 3px solid #5c6bc0;
+}
+    
+
+#first-name:active{
+  border: 3px solid #5c6bc0;
+}
+
+#second-name:active{
+  border: 3px solid #5c6bc0;
+    
+}
+
+#e-mail:active{
+  border: 3px solid #5c6bc0;
+}
+
+#phone:active{
+  border: 3px solid #5c6bc0;
+    
+}
